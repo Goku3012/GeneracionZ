@@ -6,7 +6,7 @@ int main ()
 	float A,B,C;
 	cin>>A>>B;
 	C=A+B;
-	cout<<c;
+	cout<<C;
 	return 0;
 
 }
