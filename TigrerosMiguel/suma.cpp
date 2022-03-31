@@ -2,9 +2,11 @@
 using namespace std;
 int main()
 {
-	float A,B,C;
-	cin>>A>>B;
-	C=A+B;
-	cout<<C;
+	float X,Y,Z;
+	cout<<"Ingrese 2 numero X Y :";
+	cin>>X>>Y;
+	Z=X+Y;
+	cout<<"El resultado es :";
+        cout<<Z<<endl;
 	return 0;
 }
