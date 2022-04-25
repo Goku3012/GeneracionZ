@@ -12,7 +12,7 @@ int main()
 	c=c+1;
 	s=s+z;
 	}while(c<a);
-	cout<<"La suma total es: "<<5<<endl;
+	cout<<"La suma total es: "<<s<<endl;
 	return 0;
 }
 
