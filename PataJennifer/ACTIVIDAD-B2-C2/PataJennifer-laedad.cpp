@@ -1,7 +1,23 @@
+//=======================================
+//===>Nombre del Programa: Calcular la edad de una persona
+//===>Archivo:laedad.cpp
+//===>Autor:Pata Mina Jennifer Maibe
+//===>Fecha de elaboración:23/04/2022
+//===>Fecha de Actualización:13/05/2022
+//========================================
+
 #include<iostream>
 using namespace std;
 int main()
 {
+	
+//=======================================
+//===>Nombre del Programa: Calcular la edad de una persona
+//===>Archivo:laedad.cpp
+//===>Autor:Pata Mina Jennifer Maibe
+//===>Fecha de elaboración:23/04/2022
+//===>Fecha de Actualización:13/05/2022
+//========================================
 	int dd,mm,yy,dd1,mm1,yy1,da,ma,ya;
 	
 	cout<<"Ingresa la Fecha Actual: Dia Mes y Año "<<endl;
