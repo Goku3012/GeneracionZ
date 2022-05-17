@@ -1,30 +1,46 @@
+//===============================================
+//===>Nombre del programa:Calcular la cantidad de moneda a ingresar
+//===>Archivo:CuentaMoneda.cpp
+//===>Autor:Montesdeoca Castillo Daniela Mishelle
+//===>Fecha de elaboracion:02/05/2022
+//===>Fecha de actualizacion:17/05/2022
+//===============================================
+
 #include<iostream>
 using namespace std;
 int main()
 {
-	int n,c=0,c1=0,c2=0;
-	float x,a=0,a1=0,a2=0;
+	int MD_n,MD_c=0,MD_c1=0,MD_c2=0;
+	float MD_x,MD_a=0,MD_a1=0,MD_a2=0;
 	cout<<"Cantidad de monedas a ingresar: ";
-	cin>>n;
+	cin>>MD_n;
 	do{
 		cout<<"Ingrese el valor de la moneda (0.10,0.25): ";
-		cin>>x;
-		c=c+1;
-		a=a+x;
-		if(x==(float)0.10){
-			c1=c1+1;
-			a1=a1+x;
+		cin>>MD_x;
+		MD_c=MD_c+1;
+		MD_a=MD_a+MD_x;
+		if(MD_x==(float)0.10){
+			MD_c1=MD_c1+1;
+			MD_a1=MD_a1+MD_x;
 		}else{
-			c2=c2+1;
-			a2=a2+x;
+			MD_c2=MD_c2+1;
+			MD_a2=MD_a2+MD_x;
 		}
-	}while(c<n);
+	}while(MD_c<MD_n);
+
+cout<<"//==============================================="<<endl;
+cout<<"//===>Nombre del programa:Calcular la cantidad de moneda a ingresar"<<endl;
+cout<<"//===>Archivo:CuentaMoneda.cpp"<<endl;
+cout<<"//===>Autor:Montesdeoca Castillo Daniela Mishelle"<<endl;
+cout<<"//===>Fecha de elaboracion:02/05/2022"<<endl;
+cout<<"//===>Fecha de actualizacion:17/05/2022"<<endl;
+cout<<"//==============================================="<<endl;
 	cout<<"El resultado fue: "<<endl;
-	cout<<"Cantidad total en dinero contado: "<<a<<endl;
-	cout<<"Cantidad total de monedas de 0.10 ingresadas: "<<c1<<endl;
-	cout<<"Cantidad total de dinero de monedas de 0.10: "<<a1<<endl;
-	cout<<"Cantidad de monedas de 0.25 ingresadas: "<<c2<<endl;
-	cout<<"Cantidad total de dinero de monedas de 0.25: "<<c2<<endl;
+	cout<<"Cantidad total en dinero contado: "<<MD_a<<endl;
+	cout<<"Cantidad total de monedas de 0.10 ingresadas: "<<MD_c1<<endl;
+	cout<<"Cantidad total de dinero de monedas de 0.10: "<<MD_a1<<endl;
+	cout<<"Cantidad de monedas de 0.25 ingresadas: "<<MD_c2<<endl;
+	cout<<"Cantidad total de dinero de monedas de 0.25: "<<MD_c2<<endl;
 	return 0;
 }
 	     
