@@ -1,27 +1,44 @@
+//===============================================
+//===>Nombre del programa:Calcular la edad de una persona
+//===>Archivo:Laedad.cpp
+//===>Autor:Montesdeoca Castillo Daniela Mishelle
+//===>Fecha de elaboracion:02/05/2022
+//===>Fecha de actualizacion:17/05/2022
+//===============================================
+
 #include<iostream>
 using namespace std;
 int main()
 { 
-	int aa,ma,da,an,mn,dn,a,m,d;
+	int MD_aa,MD_ma,MD_da,MD_an,MD_mn,MD_dn,MD_a,MD_m,MD_d;
 	cout<<"Ingrese la fecha actual (aaaa mn dd): ";
-	cin>>aa>>mn>>da;
+	cin>>MD_aa>>MD_mn>>MD_da;
 	cout<<"Ingrese la fecha de nacimiento (aaaa mn dd): ";
-	cin>>an>>mn>>dn;
-	if(da>=dn){
-		d=da-dn;
+	cin>>MD_an>>MD_mn>>MD_dn;
+	if(MD_da>=MD_dn){
+		MD_d=MD_da-MD_dn;
 	}else{
-		dn=dn+30;
-		ma=ma-1;
-		d=da-dn;
+		MD_dn=MD_dn+30;
+		MD_ma=MD_ma-1;
+		MD_d=MD_da-MD_dn;
 	}
-	if(ma>=mn){
-		m=ma-mn;
+	if(MD_ma>=MD_mn){
+		MD_m=MD_ma-MD_mn;
 	}else{
-		mn=mn+12;
-		aa=aa-1;
-		m=ma-mn;
+		MD_mn=MD_mn+12;
+		MD_aa=MD_aa-1;
+		MD_m=MD_ma-MD_mn;
 	}
-	a=aa-an;
-	cout<<"La persona tiene "<<a<<" años "<<m<<" meses y "<<d<<" dias ";
+	MD_a=MD_aa-MD_an;
+
+cout<<"//==============================================="<<endl;
+cout<<"//===>Nombre del programa:Calcular la edad de una persona"<<endl;
+cout<<"//===>Archivo:Laedad.cpp"<<endl;
+cout<<"//===>Autor:Montesdeoca Castillo Daniela Mishelle"<<endl;
+cout<<"//===>Fecha de elaboracion:02/05/2022"<<endl;
+cout<<"//===>Fecha de actualizacion:17/05/2022"<<endl;
+cout<<"//==============================================="<<endl;
+
+	cout<<"La persona tiene "<<MD_a<<" años "<<MD_m<<" meses y "<<MD_d<<" dias ";
 	return 0;
 }
