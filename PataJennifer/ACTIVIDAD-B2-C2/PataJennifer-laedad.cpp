@@ -1,31 +1,51 @@
+//===============================================================================================================
+//========> Nombre del Programa: Calcular la edad de una Persona
+//========> Archivo:laedad.cpp
+//========> Autor: Pata Mina Jennifer Maibe
+//========> Fecha de Creación:23/04/2022
+//========> Fecha de Actualización:19/05/2022
+//===============================================================================================================
+
+
 #include<iostream>
 using namespace std;
 int main()
 {
-	int dd,mm,yy,dd1,mm1,yy1,da,ma,ya;
+
+cout<<"//==============================================================================================================="<<endl;
+cout<<"//========> Nombre del Programa: Calcular la edad de una Persona"<<endl;
+cout<<"//========> Archivo:laedad.cpp"<<endl;
+cout<<"//========> Autor: Pata Mina Jennifer Maibe"<<endl;
+cout<<"//========> Fecha de Creación:23/04/2022"<<endl;
+cout<<"//========> Fecha de Actualización:19/05/2022"<<endl;
+cout<<"//==============================================================================================================="<<endl<<endl;
+
+	int MJ_da,MJ_ma,MJ_aa,MJ_dn,MJ_mn,MJ_an,MJ_d,MJ_m,MJ_a;
 	
-	cout<<"Ingresa la Fecha Actual: Dia Mes y Año "<<endl;
-	cin>>dd>>mm>>yy;
-	cout<<"Ingresa la Fecha de Nacimiento: Dia Mes y Año "<<endl;
-	cin>>dd1>>mm1>>yy1;
-	if(dd<dd1){
-		dd=dd+30;
-		mm=mm-1;
-		da=dd-dd1;
+	cout<<"Ingrese la Fecha Actual: Dia Mes  Año "<<endl;
+	cin>>MJ_da>>MJ_ma>>MJ_aa;
+
+	cout<<"Ingrese la Fecha de su  Nacimiento: Dia Mes  Año "<<endl;
+	cin>>MJ_dn>>MJ_mn>>MJ_an;
+
+	if(MJ_da<MJ_dn){
+		MJ_da=MJ_da+30;
+		MJ_ma=MJ_ma-1;
+		MJ_d=MJ_da-MJ_dn;
 	}
 	else{
-		da=dd-dd1;
+		MJ_d=MJ_da-MJ_dn;
 	}
-	if(mm<mm1){
-		mm=mm+12;
-		yy=yy-1;
-		ma=mm-mm1;
+	if(MJ_ma<MJ_mn){
+		MJ_ma=MJ_ma+12;
+		MJ_aa=MJ_aa-1;
+		MJ_m=MJ_ma-MJ_mn;
 	}
 	else{
-		ma=mm-mm1;
+		MJ_m=MJ_ma-MJ_mn;
 	}
-	ya=yy-yy1;
-	cout<<"Ustd Tiene "<<ya<<" años "<<ma<<" meses "<<" y "<<da<<" dias "<<endl;
+	MJ_a=MJ_aa-MJ_an;
+	cout<<"Ustd Tiene "<<MJ_a<<" años "<<MJ_m<<" meses "<<" y "<<MJ_d<<" dias "<<endl;
 	return 0;
 }
 
