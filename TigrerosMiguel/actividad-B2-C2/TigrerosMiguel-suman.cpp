@@ -1,6 +1,6 @@
 //=========================================
 //===>Nombre del programa:Calcular la suma de dos numeros
-//===>Autor:Tigreros Escobar Miguel
+//===>Autor:Tigreros Estacio Miguel
 //===>Archivo:suman.cpp
 //===>Fecha de elaboracion:03/05/2022
 //===>Fecha de actualizacion:21/05/2022
@@ -23,7 +23,7 @@ do {
 
 cout<<"//========================================="<<endl;
 cout<<"//===>Nombre del programa:Calcular la suma de dos numeros"<<endl;
-cout<<"//===>Autor:Tigreros Escobar Miguel"<<endl;
+cout<<"//===>Autor:Tigreros Estacio Miguel"<<endl;
 cout<<"//===>Archivo:suman.cpp"<<endl;
 cout<<"//===>Fecha de elaboracion:03/05/2022"<<endl;
 cout<<"//===>Fecha de actualizacion:21/05/2022"<<endl;
