@@ -1,3 +1,11 @@
+//=========================================
+//===>Nombre del programa:Comparacion de numeros
+//===>Autor:Tigreros Estacio Miguel
+//===>Archivo:cuentamoneda.cpp
+//===>Fecha de elaboracion:03/05/2022
+//===>Fecha de actualizacion:21/05/2022
+//=========================================
+
 #include<iostream>
 using namespace std; 
 int main()
@@ -20,6 +28,15 @@ int main()
 		}
 		
 	}while(c<n);
+	
+cout<<"//========================================="<<endl;
+cout<<"//===>Nombre del programa:Comparacion de numeros"<<endl;
+cout<<"//===>Autor:Tigreros Estacio Miguel"<<endl;
+cout<<"//===>Archivo:cuentamoneda.cpp"<<endl;
+cout<<"//===>Fecha de elaboracion:03/05/202"<<endl;
+cout<<"//===>Fecha de actualizacion:21/05/2022"<<endl;
+cout<<"//========================================="<<endl;
+
 cout<<"El reaultado fue: "<<endl;
 cout<<"cantidad de monedas ingresadas: "<<c<<endl;
 cout<<"cantidad de donero contado:$ "<<a<<endl;
