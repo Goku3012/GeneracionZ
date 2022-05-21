@@ -10,28 +10,28 @@
 using namespace std;
 int main ()
 {
-int dd,mm,yy,dd1,mm1,yy1,da,ma,ya;
+int TM_dd,TM_mm,TM_yy,TM_dd1,TM_mm1,TM_yy1,TM_da,TM_ma,TM_ya;
 		cout<<"Ingrese la fecha actual: Dia mes y año"<<endl;
-		cin>>dd>>mm>>yy;
+		cin>>TM_dd>>TM_mm>>TM_yy;
 			cout<<"Ingrese la fecha de nacimiento:Dia Mes y año"<<endl;
-			cin>>dd1>>mm1>>yy1;
-			if (dd<dd1) {
-				dd=dd+30;
-				mm=mm-1,
-					da=dd-dd1;
+			cin>>TM_dd1>>TM_mm1>>TM_yy1;
+			if (TM_dd<TM_dd1) {
+				TM_dd=TM_dd+30;
+				TM_mm=TM_mm-1,
+					TM_da=TM_dd-TM_dd1;
 			}
 			else {
-				da=dd-dd1;
+				TM_da=TM_dd-TM_dd1;
 			}
-		if (mm<mm1) {
-			mm=mm+12; 
-			yy=yy-1;
-			ma=mm-mm1;
+		if (TM_mm<TM_mm1) {
+			TM_mm=TM_mm+12; 
+			TM_yy=TM_yy-1;
+			TM_ma=TM_mm-TM_mm1;
 		}
 		else {
-			ma=mm-mm1;
+			TM_ma=TM_mm-TM_mm1;
 		}
-		ya=yy-yy1;
+		TM_ya=TM_yy-TM_yy1;
 
 cout<<"//========================================="<<endl;
 cout<<"//===>Nombre del programa:Calcular la edad de una persona"<<endl;
@@ -41,6 +41,6 @@ cout<<"//===>Fecha de elaboracion:03/05/2022"<<endl;
 cout<<"//===>Fecha de actualizacion:21/05/2022"<<endl;
 cout<<"//========================================="<<endl;
 
-		cout<<"Usted tiene "<<ya<<" años "<<ma<<" meses "<< "y"<<da<<" dias "<<endl;
+		cout<<"Usted tiene "<<TM_ya<<" años "<<TM_ma<<" meses "<< "y"<<TM_da<<" dias "<<endl;
 		return 0;
 	}

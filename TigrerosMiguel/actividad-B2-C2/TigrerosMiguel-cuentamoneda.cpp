@@ -10,24 +10,24 @@
 using namespace std; 
 int main()
 {
-	int n,c=0,c1=0,c2=0;
-	float x,a=0,a1=0,a2=0;
+	int TM_n,TM_c=0,TM_c1=0,TM_c2=0;
+	float TM_x,TM_a=0,TM_a1=0,TM_a2=0;
 	cout<<"Cantidad de monedas a ingresar: ";
-	cin>>n;
+	cin>>TM_n;
 	do{
 		cout<<"Ingrese el valor de la moneda(0.10,0.25):$ ";
-		cin>>x;
-		c=c+1;
-		a=a+x;
-		if(x==(float)0.10){
-			c1=c1+1;
-			a1=a1+x;
+		cin>>TM_x;
+		TM_c=TM_c+1;
+		TM_a=TM_a+TM_x;
+		if(TM_x==(float)0.10){
+			TM_c1=TM_c1+1;
+			TM_a1=TM_a1+TM_x;
 		}else{
-			c2=c2+1;
-			a2=a2+x;
+			TM_c2=TM_c2+1;
+			TM_a2=TM_a2+TM_x;
 		}
 		
-	}while(c<n);
+	}while(TM_c<TM_n);
 	
 cout<<"//========================================="<<endl;
 cout<<"//===>Nombre del programa:Comparacion de numeros"<<endl;
@@ -38,12 +38,12 @@ cout<<"//===>Fecha de actualizacion:21/05/2022"<<endl;
 cout<<"//========================================="<<endl;
 
 cout<<"El reaultado fue: "<<endl;
-cout<<"cantidad de monedas ingresadas: "<<c<<endl;
-cout<<"cantidad de donero contado:$ "<<a<<endl;
-cout<<"cantidad de monedas de 0.10ctvs ingresadas: "<<c1<<endl;
-cout<<"cantidad total en dinero de monedas de 0.10ctvs:$ "<<a1<<endl;
-cout<<"cantidad de monedas de 0.25ctvs ingresadas: "<<c2<<endl;
-cout<<"cantodad total en dinero de monedas de 0.25ctvs:$ "<<a2<<endl;
+cout<<"cantidad de monedas ingresadas: "<<TM_c<<endl;
+cout<<"cantidad de donero contado:$ "<<TM_a<<endl;
+cout<<"cantidad de monedas de 0.10ctvs ingresadas: "<<TM_c1<<endl;
+cout<<"cantidad total en dinero de monedas de 0.10ctvs:$ "<<TM_a1<<endl;
+cout<<"cantidad de monedas de 0.25ctvs ingresadas: "<<TM_c2<<endl;
+cout<<"cantodad total en dinero de monedas de 0.25ctvs:$ "<<TM_a2<<endl;
 return 0;
 }
 
