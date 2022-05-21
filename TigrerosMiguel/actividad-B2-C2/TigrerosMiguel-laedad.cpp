@@ -1,3 +1,11 @@
+//=========================================
+//===>Nombre del programa:Calcular la edad de una persona
+//===>Autor:Tigreros Estacio Miguel
+//===>Archivo:laedad.cpp
+//===>Fecha de elaboracion:03/05/2022
+//===>Fecha de actualizacion:21/05/2022
+//=========================================
+
 #include<iostream>
 using namespace std;
 int main ()
@@ -24,6 +32,15 @@ int dd,mm,yy,dd1,mm1,yy1,da,ma,ya;
 			ma=mm-mm1;
 		}
 		ya=yy-yy1;
+
+cout<<"//========================================="<<endl;
+cout<<"//===>Nombre del programa:Calcular la edad de una persona"<<endl;
+cout<<"//===>Autor:Tigreros Estacio Miguel"<<endl;
+cout<<"//===>Archivo:laedad.cpp"<<endl;
+cout<<"//===>Fecha de elaboracion:03/05/2022"<<endl;
+cout<<"//===>Fecha de actualizacion:21/05/2022"<<endl;
+cout<<"//========================================="<<endl;
+
 		cout<<"Usted tiene "<<ya<<" años "<<ma<<" meses "<< "y"<<da<<" dias "<<endl;
 		return 0;
 	}
