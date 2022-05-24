@@ -1,11 +1,12 @@
-//=====> Autores: Pata Jennifer,
+//=====> Autores: Pata Jennifer,Quintero Adonis,
 //=====> Fecha de Creación: 22/05/2022
-//=====> Fecha de Actualización:23/05/2022 
+//=====> Fecha de Actualización:24/05/2022 
 
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
 #include"PJ_libreria.h"
+#include"ON_libreria.h"
 
 int main()
 
@@ -18,7 +19,7 @@ int main()
 	cout<<"+*+*+*+* Generación Z  +*+*+*+*"<<endl<<endl;
 
 	cout<<" 1.- Programas de Pata Jennifer"<<endl;
-	cout<<" 2.-"<<endl;
+	cout<<" 2.- Programas de Quintero Adonis"<<endl;
 	cout<<" 3.-"<<endl;
 	cout<<" 4.-"<<endl;
 	cout<<" 5.-"<<endl;
@@ -33,7 +34,8 @@ int main()
 			break;
 
 		case 2:
-
+			system("clear");
+			ON_menu();
 			break;
 
 		case 3:
