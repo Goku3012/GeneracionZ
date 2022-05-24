@@ -38,7 +38,8 @@ int ON_CuentaMoneda()
 {
 
         int ON_n,ON_c=0,ON_c1=0,ON_c2=0;
-        float ON_x,ON_a=0,ON_a1=0,ON_a2=0;                                          cout<<"Cantidad de monedas a ingresar: ";
+        float ON_x,ON_a=0,ON_a1=0,ON_a2=0;                                          
+	cout<<"Cantidad de monedas a ingresar: ";
         cin>>ON_n;
         do{
                 cout<<"Ingresar el valor de la moneda (0.10,0.25): ";
@@ -62,8 +63,8 @@ cout<<"//==>Autor: Quintero Orellana Nezareth Adonis"<<endl;
 cout<<"//==>Fecha de elaboración: 25/04/2022"<<endl;
 cout<<"//==>Fecha ultima actualización: 18/05/2022"<<endl;
 cout<<"//================================================="<<endl;
-        cout<<"El resultado fue: "<<endl;
 
+        cout<<"El resultado fue: "<<endl;
         cout<<"cantidad de monedas ingresadas: "<<ON_c<<endl;
         cout<<"cantidad total en dinero contado: "<<ON_a<<endl;
         cout<<"cantidad de monedas de 0.10 ingresadas: "<<ON_c1<<endl;
@@ -85,6 +86,7 @@ int ON_LaEdad()
         cin>>ON_dd>>ON_mm>>ON_aa>>ON_yy;
         cout<<"Ingrese la Fecha de Nacimiento:Dia Mes y Año "<<endl;
         cin>>ON_dd1>>ON_mm1>>ON_aa1>>ON_yy1;
+
         if(ON_dd<ON_dd1){
                 ON_dd=ON_dd+30;
                 ON_mm=ON_mm-1;
@@ -100,7 +102,7 @@ int ON_LaEdad()
         else{
                 ON_ma=ON_mm-ON_mm1;
         }
-        ON_ya=ON_yy-ON_yy1;
+                ON_ya=ON_yy-ON_yy1;
 
 cout<<"//================================================"<<endl;
 cout<<"//==> Nombre del programa:Calcular la edad"<<endl;
