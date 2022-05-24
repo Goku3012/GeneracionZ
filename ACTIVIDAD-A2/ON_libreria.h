@@ -84,6 +84,7 @@ int ON_LaEdad()
 
         cout<<"Ingresa la Fecha Actual:Dia Mes y Año "<<endl;
         cin>>ON_dd>>ON_mm>>ON_aa>>ON_yy;
+	
         cout<<"Ingrese la Fecha de Nacimiento:Dia Mes y Año "<<endl;
         cin>>ON_dd1>>ON_mm1>>ON_aa1>>ON_yy1;
 
@@ -113,6 +114,7 @@ cout<<"//==>Fecha ultima actualización: 18/05/2022"<<endl;
 cout<<"//================================================"<<endl;
 
         cout<<"Usted tiene "<<ON_ya<<"años "<<ON_ma<<"meses "<<"y "<<ON_da<<"dias "<<endl;
+
         return 0;
 }
 
@@ -129,11 +131,13 @@ int ON_PuntoVenta()
                 ON_C=ON_C+1;
                 ON_A=ON_A+ON_x;
                 ON_PIVA=ON_A*ON_IVA;
+
                 cout<<"El Valor del Iva de su compra es:$ "<<ON_PIVA<<endl;
                 ON_Pdsc=ON_A*ON_dsc;
                 cout<<"El Valor del Descuento de su Compra es:$ "<<ON_Pdsc<<endl;
                 ON_Tb=ON_PIVA+ON_Pdsc;                                                                                                                          }while(ON_C<ON_P);
         if(ON_Tb==ON_A){
+
                 cout<<"Su compra aplica a Descuento: "<<ON_Tb<<endl;
                 ON_IVA=ON_Tb*ON_PIVA/100;
                 ON_dsc=ON_Tb*ON_Pdsc/100;
