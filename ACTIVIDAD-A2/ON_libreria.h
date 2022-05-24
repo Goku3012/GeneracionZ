@@ -95,7 +95,7 @@ int ON_LaEdad()
         }
         else{
                 ON_da=ON_dd-ON_dd1;
-        }                                                                           if(ON_mm<ON_mm1){
+        }                                                                     if(ON_mm<ON_mm1){
                 ON_mm=ON_mm+12;
                 ON_yy=ON_yy-1;
                 ON_ma=ON_mm-ON_mm1;
@@ -103,7 +103,7 @@ int ON_LaEdad()
         else{
                 ON_ma=ON_mm-ON_mm1;
         }
-                ON_ya=ON_yy-ON_yy1;
+        ON_ya=ON_yy-ON_yy1;
 
 cout<<"//================================================"<<endl;
 cout<<"//==> Nombre del programa:Calcular la edad"<<endl;
@@ -123,6 +123,7 @@ int ON_PuntoVenta()
 
 {
         int ON_C=0,ON_P;
+
         float ON_A=0,ON_x,ON_Tb,ON_PIVA,ON_Pdsc,ON_IVA=0.12,ON_dsc=0.30,ON_VT;
 
         cout<<"Ingrese la Cantidad de Productos a Comprar: ";
@@ -130,11 +131,14 @@ int ON_PuntoVenta()
         do{
                 cout<<"Ingrese el Valor del Producto: ";
 		cin>>ON_x;
+
                 ON_C=ON_C+1;
                 ON_A=ON_A+ON_x;
                 ON_PIVA=ON_A*ON_IVA;
+
                 cout<<"El Valor del Iva de su compra es:$ "<<ON_PIVA<<endl;
-                ON_Pdsc=ON_A*ON_dsc;
+	ON_Pdsc=ON_A*ON_dsc;
+
                 cout<<"El Valor del Descuento de su Compra es:$ "<<ON_Pdsc<<endl;
                 ON_Tb=ON_PIVA+ON_Pdsc;                                                                                                              }while(ON_C<ON_P);
         if(ON_Tb==ON_A){
