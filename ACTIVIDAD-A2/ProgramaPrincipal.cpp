@@ -1,4 +1,4 @@
-//=====> Autores: Pata Jennifer,Quintero Adonis,
+//=====> Autores: Pata Jennifer,Quintero Adonis,Tigua Mayra
 //=====> Fecha de Creación: 22/05/2022
 //=====> Fecha de Actualización:24/05/2022 
 
@@ -7,6 +7,7 @@
 using namespace std;
 #include"PJ_libreria.h"
 #include"ON_libreria.h"
+#include"TM_libreria.h"
 
 int main()
 
@@ -20,7 +21,7 @@ int main()
 
 	cout<<" 1.- Programas de Pata Jennifer"<<endl;
 	cout<<" 2.- Programas de Quintero Adonis"<<endl;
-	cout<<" 3.-"<<endl;
+	cout<<" 3.- Programas de Tigua Mayra"<<endl;
 	cout<<" 4.-"<<endl;
 	cout<<" 5.-"<<endl;
 	cout<<" 0.- Salir del menú"<<endl<<endl;
@@ -39,7 +40,8 @@ int main()
 			break;
 
 		case 3:
-
+			system("clear");
+			TM_menu();
 			break;
 		
 		case 4:
