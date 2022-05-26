@@ -220,17 +220,17 @@ int ON_menu()
 			ON_CuentaMoneda();
 			break;
 
-		case 3
+		case 3:
 			system("clear");
 		        ON_LaEdad();
 			break;
 
-		case 4
+		case 4:
 			system("clear");
 		        ON_PuntoVenta();
 			break;
 
-		case 5 
+		case 5: 
 			system("clear");
 			ON_SumaN();
 			break;
